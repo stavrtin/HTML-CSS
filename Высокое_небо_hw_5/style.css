@@ -1,0 +1,187 @@
+body{
+    background-color: #f8f8f8
+}
+
+.container {
+    width: auto;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.header{
+    height: 70px;
+    background-image: url('img/fon.png');
+}
+
+.ryadom{
+/*    border: 1px solid black;*/
+    width: 750px;
+    margin: 310px;
+    margin-top: 5px;
+    
+}
+.container_tovarov{
+    border: 1px solid #ccc;
+    height: 500px;
+}
+.tovar{
+    float: left;
+    margin: 10px 10px;
+    text-align: center;
+    margin-left: 200px
+}
+.imagiens {
+    height: 510px;
+    text-align: center;
+    
+    
+}
+.imagiens img{
+     border: 1px solid #ccc;
+    height: 310px;
+    text-align: center;
+     margin: 10px 10px;
+  
+}
+
+
+
+/*----------------логотип-позиционирование ----------------------------------------*/
+.logo{
+   outline: none;
+   margin: 10px 10px;
+   float: left;
+}
+/*----------------меню -позиционирование оформление ---------------------------------*/
+.menu {
+    float: right;
+margin-top: 5px;
+    }
+.menu li{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    border: 1px solid #707070;
+    background-color: skyblue;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 5px;
+    margin-top: 20px;
+}
+.menu li:hover{
+    background-color: antiquewhite;
+}
+.menu li a:hover{
+    color: brown;
+}
+
+/*-----------ФУТЕР позиционирование блока- цвет размер-----------------------------*/
+.footer{
+    height: 50px;
+    background-color: #ccc;
+    text-align: right;
+     
+}
+
+/*-----------ФУТЕР позиционирование текса- сдвинули от границ ---------------------*/
+.foottext{
+    margin: 10px 20px; 
+}
+
+/*-----------------Располагаем кнопку внутри блоков, делаем так, что бы нижний текст не наползал вверх-----*/
+.foto_tovara{
+     height: 250px;
+  
+}
+.foto{
+    width: 300px;
+    height: 230px;
+    
+    float: left;
+}
+.Byu{
+    text-align: center;
+}
+.header_brand{
+    color: black;
+    font: 18px;
+    font-weight: 400;
+   
+    background-color: #eaeaea
+}
+.zagolovok_ttx{
+     position: relative;
+       
+}
+/*-------------------- Стили текста внутри параграфов-------------------------------*/
+.shortText{
+    color: #707070;
+    font: 14px;
+    font-style: italic;
+    line-height: 16px;
+}   
+.LongText{
+    color:#484343;
+    font: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align:left;
+}
+/* ------------------  рамка на картинки---------------------------------------------*/
+img{
+    outline : 2px solid #707070
+}
+/* ------------------  Пропадание рамки на картинке при наезде мышкой----------------*/
+img:hover{
+    outline : 0px solid #707070
+}
+/* ------------------  обратная связь. Контакты-------------------------------------*/
+input{
+    width: 200px; 
+    height: 20px;
+    font-style: italic;
+    color: brown;
+    font-size: 15px;
+}
+input[type="email"]:focus{
+    background-color:cadetblue;
+    color: black
+}
+input[type="text"]{
+text-transform:capitalize;
+}
+input[type="email"]{
+text-transform:capitalize;
+}
+/*------------------------TABLE------------------------------------------------------*/
+.zagolovok{
+    background-color: #eaeaea;
+    height: 50px
+}
+/*-------------------- выделение цветом / размером первой буквы параграфа------------*/
+.LongText:first-letter{
+    font-size: 30px;
+    color: brown;
+}
+.shortText:first-letter{
+    font-size: 30px;
+    color: brown;
+}
+/*
+----------------------пробная таблица для задания 4х5-на странице Advance ----------
+.proba {
+    border: 1px solid #000;
+    width: 400px;
+    height: 100px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle; 
+}
+.proba td{
+    border: 1px solid #000;
+    padding-left: 10px;
+    vertical-align: top
+}
+    
+*/
