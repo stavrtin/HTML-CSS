@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+.tytle{
+    margin-top: 84px;
+    margin-bottom: 17px;
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+margin-top: 17px;
+margin-bottom: 37px;
+color: #888;
+font-family: Gilroy-Medium;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.buttons{
+    margin-top: 37px;
+    margin-bottom: 251px;
+   
+}
+
+.logos {
+    margin-top: 251px;
+}
